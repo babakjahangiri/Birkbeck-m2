@@ -167,4 +167,41 @@ section>p {
     font-size: 25em;
     margin: 0 auto;
     padding: 0 0 0 70px;
+    animation: londoncolors 20s infinite alternate;
+}
+
+@keyframes londoncolors {
+    0% {
+        color: #007acc;
+    }
+    10% {
+        color: #8e44ad;
+    }
+    20% {
+        color: #1abc9c;
+    }
+    30% {
+        color: #d35400;
+    }
+    40% {
+        color: #8e44ad;
+    }
+    50% {
+        color: #fa06a9;
+    }
+    60% {
+        color: #d35400;
+    }
+    70% {
+        color: #2980b9;
+    }
+    80% {
+        color: #f1c40f;
+    }
+    90% {
+        color: #c2ff18;
+    }
+    100% {
+        color: #003399;
+    }
 }
